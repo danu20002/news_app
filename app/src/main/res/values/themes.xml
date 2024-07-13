@@ -1,9 +1,30 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.TryTestApplication" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Default theme colors -->
+        <item name="colorPrimary">@color/default_primary</item>
+        <item name="colorPrimaryVariant">@color/default_primary_variant</item>
+        <item name="colorOnPrimary">@color/default_on_primary</item>
     </style>
 
-    <style name="Theme.TryTestApplication" parent="Base.Theme.TryTestApplication" />
+    <!-- Define Light Theme -->
+    <style name="Theme.TryTestApplication.Light" parent="Base.Theme.TryTestApplication">
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorPrimaryVariant">@color/light_primary_variant</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+    </style>
+
+    <!-- Define Dark Theme -->
+    <style name="Theme.TryTestApplication.Dark" parent="Base.Theme.TryTestApplication">
+        <item name="colorPrimary">@color/dark_primary</item>
+        <item name="colorPrimaryVariant">@color/dark_primary_variant</item>
+        <item name="colorOnPrimary">@color/dark_on_primary</item>
+    </style>
+
+    <!-- Define Black Theme -->
+    <style name="Theme.TryTestApplication.Black" parent="Base.Theme.TryTestApplication">
+        <item name="colorPrimary">@color/black_primary</item>
+        <item name="colorPrimaryVariant">@color/black_primary_variant</item>
+        <item name="colorOnPrimary">@color/black_on_primary</item>
+    </style>
 </resources>

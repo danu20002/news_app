@@ -2,4 +2,23 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <!-- Default colors -->
+    <color name="default_primary">#6200EE</color>
+    <color name="default_primary_variant">#3700B3</color>
+    <color name="default_on_primary">#FFFFFF</color>
+
+    <!-- Light theme colors -->
+    <color name="light_primary">#BB86FC</color>
+    <color name="light_primary_variant">#3700B3</color>
+    <color name="light_on_primary">#000000</color>
+
+    <!-- Dark theme colors -->
+    <color name="dark_primary">#1F1F1F</color>
+    <color name="dark_primary_variant">#121212</color>
+    <color name="dark_on_primary">#FFFFFF</color>
+
+    <!-- Black theme colors -->
+    <color name="black_primary">#000000</color>
+    <color name="black_primary_variant">#000000</color>
+    <color name="black_on_primary">#FFFFFF</color>
 </resources>
